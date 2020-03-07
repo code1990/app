@@ -51,8 +51,25 @@ fun main(args: Array<String>) {
     person.no = 20
     println("lastName:${person.no}")
     //测试runoob类
+    val runoob = Runoob("test")
+    println(runoob.siteName)
+    println(runoob.url)
+    println(runoob.country)
+    runoob.printTest()
+    //测试内部类
+    val demo = Outer().Inner().foo()
+    println(demo)
+    val demo2= Outer().Inner().innerTest()
+    println(demo2)// 内部类可以引用外部类的成员，例如：成员属性
 
-
+    //测试匿名内部类
+    var test = Test1()
+    //采取对象表达式来创建接口对象 即为匿名内部类的实例
+    test.setInterFace(object :TestInterface{
+        override fun test() {
+            println("对象表达式创建匿名内部类的实例")
+        }
+    })
 }
 
 //Koltin 中的类可以有一个 主构造器，以及一个或多个次构造器，主构造器是类头部的一部分，位于类名称之后:
@@ -71,6 +88,7 @@ class Person3 {
         // 提供了 Backing Fields(后端变量) 机制,
         // 备用字段使用field关键字声明,
         // field 关键词只能用于属性的访问器，如以上实例：
+        // field 就相当于编译器给你提供两一个隐式私有变量
         get() = field// 后端变量
         set(value) {
             if (value < 10) {
@@ -133,3 +151,64 @@ class Person7(val name:String) {
     }
 }
 //如果一个非抽象类没有声明构造函数(主构造函数或次构造函数)，它会产生一个没有参数的构造函数。构造函数是 public 。如果你不想你的类有公共的构造函数，你就得声明一个空的主构造函数：
+class DontCreateMe private constructor(){
+    //
+}
+//注意：在 JVM 虚拟机中，如果主构造函数的所有参数都有默认值，编译器会生成一个附加的无参的构造函数，这个构造函数会直接使用默认值。
+class Consumer(val consumerName:String="")
+
+//抽象类
+//抽象是面向对象编程的特征之一，类本身，或类中的部分成员，
+// 都可以声明为abstract的。抽象成员在类中不存在具体的实现。
+//注意：无需对抽象类或抽象成员标注open注解。
+open class Base{
+    open fun f(){}
+}
+abstract class Derived:Base(){
+    override abstract fun f()
+}
+//嵌套类
+//我们可以把类嵌套在其他类中，看以下实例：
+class Outer{//外部类
+    private val bar:Int=1//
+    class Nested{//嵌套类
+        fun foo()=1
+    }
+    //内部类
+    //内部类使用 inner 关键字来表示。
+    var v="成员属性"
+    inner class Inner{
+        fun foo()=bar//访问外部类成员
+        fun innerTest(){
+            var o = this@Outer //获取外部类的成员变量
+            println("内部类可以引用外部类的成员，例如：" + o.v)
+        }
+    }
+}
+//匿名内部类
+//使用对象表达式来创建匿名内部类：
+//定义一个接口
+interface TestInterface{
+    fun test()
+}
+class Test1{
+    var v="成员属性"
+    fun setInterFace(test:TestInterface){
+        test.test()
+    }
+}
+//类的修饰符
+//类的修饰符包括 classModifier 和_accessModifier_:
+//classModifier: 类属性修饰符，标示类本身特性。
+//
+//abstract    // 抽象类
+//final       // 类不可继承，默认属性
+//enum        // 枚举类
+//open        // 类可继承，类默认是final的
+//annotation  // 注解类
+//accessModifier: 访问权限修饰符
+//
+//private    // 仅在同一个文件中可见
+//protected  // 同一个文件中或子类可见
+//public     // 所有调用的地方都可见
+//internal   // 同一个模块中可见
