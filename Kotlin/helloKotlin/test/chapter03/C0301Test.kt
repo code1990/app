@@ -19,9 +19,11 @@ package chapter03
 //kotlin.js.*
 import easykotlin.chapter03.MotorBike
 import easykotlin.chapter03.what
+import execute
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.JUnit4
+import text
 
 @RunWith(JUnit4::class)
 class C0301Test {
@@ -33,5 +35,14 @@ class C0301Test {
     fun testDriverMotorBike(){
         val bike =MotorBike()
         bike.drive()
+    }
+    //测试上面的代码
+    @Test
+    fun testTextProcess(){
+        val p = "dir".execute()
+        val exitCode = p.waitFor()
+        val text = p.text()
+        println(exitCode)
+        println(text)
     }
 }

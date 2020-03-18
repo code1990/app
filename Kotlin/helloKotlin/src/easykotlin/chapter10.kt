@@ -1,5 +1,8 @@
 // 第10章　Kotlin与Java互操作 330
 // 10.1　在Kotlin中调用Java 330
+//Kotlin 在设计之初就考虑了与 Java 的互操作性。
+//下面是一个Kotlin调用Java中的Okhttp库的代码
+//Java 代码中也可以很顺利地调用 Kotlin 代码
 // 10.1.1　调用Okhttp库示例 331
 // 10.1.2　使用Java的集合类 332
 // 10.1.3　调用Java中的Getter和Setter 333
