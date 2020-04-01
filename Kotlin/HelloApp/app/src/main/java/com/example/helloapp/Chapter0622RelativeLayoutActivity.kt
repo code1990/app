@@ -25,10 +25,43 @@ class Chapter0622RelativeLayoutActivity : AppCompatActivity() {
             rl_params.sameLeft(v.id)
             addNewView(rl_params)
         }
-        btn_add_right.setOnClickListener { v->
+        btn_add_right.setOnClickListener { v ->
             val rl_params = RelativeLayout.LayoutParams(dip(50), dip(50))
             rl_params.rightOf(v)
             rl_params.sameBottom(v)
+            addNewView(rl_params)
+        }
+        btn_add_below.setOnClickListener { v ->
+            val rl_params = RelativeLayout.LayoutParams(dip(50), dip(50))
+            rl_params.below(v)
+            rl_params.sameRight(v)
+            addNewView(rl_params)
+        }
+        btn_add_center.setOnClickListener { v ->
+            val rl_params = RelativeLayout.LayoutParams(dip(50), dip(50))
+            rl_params.centerInParent()
+            addNewView(rl_params)
+        }
+        btn_add_parent_left.setOnClickListener { v ->
+            val rl_params = RelativeLayout.LayoutParams(dip(50), dip(50))
+            rl_params.alignParentLeft()
+            rl_params.centerVertically()
+            addNewView(rl_params)
+        }
+        btn_add_parent_top.setOnClickListener { v ->
+            val rl_params = RelativeLayout.LayoutParams(dip(50), dip(50))
+            rl_params.alignParentTop()
+            rl_params.centerHorizontally()
+            addNewView(rl_params)
+        }
+        btn_add_parent_right.setOnClickListener { v ->
+            val rl_params = RelativeLayout.LayoutParams(dip(50), dip(50))
+            rl_params.alignParentRight()
+            addNewView(rl_params)
+        }
+        btn_add_parent_bottom.setOnClickListener { v ->
+            val rl_params = RelativeLayout.LayoutParams(dip(50), dip(50))
+            rl_params.alignParentBottom()
             addNewView(rl_params)
         }
     }
