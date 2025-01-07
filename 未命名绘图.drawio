@@ -1,0 +1,213 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="26.0.4">
+  <diagram name="第 1 页" id="Gk60V1TTor8V56hxER62">
+    <mxGraphModel dx="698" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-1" value="3维GIS管网" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="90" y="110" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-gr6ZtgubA5fiwtZLRM4-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="240" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-11" value="实现方式" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-gr6ZtgubA5fiwtZLRM4-3">
+          <mxGeometry x="-0.2889" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-4" value="&lt;div&gt;基于Cesium.js加载三维瓦片&lt;/div&gt;&lt;div&gt;基于Three.js实现动画、粒子效果&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-gr6ZtgubA5fiwtZLRM4-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-12" value="技术难度" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-gr6ZtgubA5fiwtZLRM4-5">
+          <mxGeometry x="-0.2" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-6" value="三维管线瓦片" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-8" value="&lt;div&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;3DTiles&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 4; text-align: start; text-indent: 0px; text-transform: none; white-space: pre-wrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;glTF&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-gr6ZtgubA5fiwtZLRM4-6" target="-gr6ZtgubA5fiwtZLRM4-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-10" value="分类" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-gr6ZtgubA5fiwtZLRM4-9">
+          <mxGeometry x="-0.1667" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-14" value="3D tiles是适用于展示大区域面积的建筑模型" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="567" y="80" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-16" value="glTF模型是加载单个独立模型" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="580" y="50" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-17" value="2维GIS管网" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="90" y="400" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="440" as="sourcePoint" />
+            <mxPoint x="240" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-19" value="实现方式" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-gr6ZtgubA5fiwtZLRM4-18">
+          <mxGeometry x="-0.2222" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-20" value="基于ArcGIS做数据裁剪形成多个shp文件，基于ArcGis Server发布地图服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="440" as="sourcePoint" />
+            <mxPoint x="480" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-22" value="展示思路" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-gr6ZtgubA5fiwtZLRM4-21">
+          <mxGeometry x="-0.0667" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-23" value="基于地图中心点位置+缩放等级，显示附件片区的管线" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-24" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="-gr6ZtgubA5fiwtZLRM4-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="300" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-25" value="&lt;div&gt;shp文件转geosjon&lt;/div&gt;&lt;div&gt;geojson转3dTiles&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="330" as="sourcePoint" />
+            <mxPoint x="440" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="-gr6ZtgubA5fiwtZLRM4-27" target="-gr6ZtgubA5fiwtZLRM4-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="-gr6ZtgubA5fiwtZLRM4-27" target="-gr6ZtgubA5fiwtZLRM4-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-27" value="&lt;div&gt;搭建3维瓦片服务器&lt;/div&gt;&lt;div&gt;发布三维瓦片服务&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="440" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-30" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="-gr6ZtgubA5fiwtZLRM4-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="330" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-33" value="数据处理基于python实现" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#66FF66;" vertex="1" connectable="0" parent="-gr6ZtgubA5fiwtZLRM4-30">
+          <mxGeometry x="-0.0667" y="-2" relative="1" as="geometry">
+            <mxPoint x="-22" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-35" value="&lt;div&gt;适合通用管线模型、&lt;/div&gt;&lt;div&gt;特殊模型不支持&lt;/div&gt;&lt;div&gt;如：泵站、篦子&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="240" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="-gr6ZtgubA5fiwtZLRM4-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="330" as="sourcePoint" />
+            <mxPoint x="300" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-37" value="建模效果待确认" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-gr6ZtgubA5fiwtZLRM4-36">
+          <mxGeometry x="-0.0714" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-39" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-gr6ZtgubA5fiwtZLRM4-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="400" as="sourcePoint" />
+            <mxPoint x="660" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-40" value="基于tomcat或者nginx实现" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#33FF33;" vertex="1" connectable="0" parent="-gr6ZtgubA5fiwtZLRM4-39">
+          <mxGeometry x="-0.0114" y="2" relative="1" as="geometry">
+            <mxPoint x="30" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="-gr6ZtgubA5fiwtZLRM4-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="230" as="sourcePoint" />
+            <mxPoint x="500" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-42" value="&lt;div align=&quot;left&quot;&gt;openlayer&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;align=left;strokeColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="30" y="390" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.167;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="-gr6ZtgubA5fiwtZLRM4-42" target="-gr6ZtgubA5fiwtZLRM4-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="390" as="sourcePoint" />
+            <mxPoint x="100" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-44" value="&lt;div&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;openlayer实现二维gis废除、&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;统一使用cesium实现 二维三维地图的切换&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;便于后期维护&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-gr6ZtgubA5fiwtZLRM4-43">
+          <mxGeometry x="0.01" relative="1" as="geometry">
+            <mxPoint x="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-gr6ZtgubA5fiwtZLRM4-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="570.1428571428571" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-45" value="3dTiles瓦片实现思路" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-47" value="二维信息+高度（或者自定义高度）+管径+材质+配色" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-48" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="570" as="sourcePoint" />
+            <mxPoint x="460" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-49" value="生成通用的3维管线" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="460" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-50" value="&lt;div&gt;特殊3维模型&lt;/div&gt;&lt;div&gt;雨水篦子、泵站&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="40" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-51" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="670" as="sourcePoint" />
+            <mxPoint x="240" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-52" value="后期实现找免费的模型加载" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="240" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-53" value="&lt;div align=&quot;left&quot;&gt;开发计划：&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;第一步 整合vue2+cesium 搭建三维开发环境 并加载三维瓦片&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;第二步 基于python 完成雨水管 污水管 雨污混合管的建模与展示 确定模型效果&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;第三步 确认好模型以后 统一完成三维管线的建模与处理 发布三维管线服务&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;第四步 基于三维管线服务 与前端三维之间完成整体调试&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;第五步 管线服务完成以后、再开发其他的辅助功能。&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="770" width="480" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-gr6ZtgubA5fiwtZLRM4-54" value="3维GIS管网开发流程图" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="10" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
