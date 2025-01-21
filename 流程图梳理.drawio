@@ -250,6 +250,21 @@
         <mxCell id="b5je5e9Mu80O6Y4lW1f3-97" value="丰富各类业务场景" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="3090" width="300" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="b5je5e9Mu80O6Y4lW1f3-98" value="即为根据原型生成各类场景的解决方案" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="3210" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b5je5e9Mu80O6Y4lW1f3-99" value="管理系统场景解决方案生成以后" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="3210" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b5je5e9Mu80O6Y4lW1f3-100" value="丰富三维可视化的数字场景" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="3320" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b5je5e9Mu80O6Y4lW1f3-101" value="提供三维数字可视化的解决方案" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="3320" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b5je5e9Mu80O6Y4lW1f3-102" value="以丰富的场景、动态快速可交互的成果展示给大家" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="3420" width="300" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
