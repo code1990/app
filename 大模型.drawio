@@ -1,0 +1,130 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.4">
+  <diagram name="第 1 页" id="L4Ejnetb8hwzLnSDwUQH">
+    <mxGraphModel dx="842" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dIJch6Zz2yw0_G9rzIlB-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dIJch6Zz2yw0_G9rzIlB-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="167.6099999999999" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIJch6Zz2yw0_G9rzIlB-8" value="vLLM配置部署大模型,对外发布web服务接口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dIJch6Zz2yw0_G9rzIlB-7">
+          <mxGeometry x="1" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIJch6Zz2yw0_G9rzIlB-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dIJch6Zz2yw0_G9rzIlB-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="262.83000000000004" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIJch6Zz2yw0_G9rzIlB-12" value="大模型推理服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dIJch6Zz2yw0_G9rzIlB-10">
+          <mxGeometry x="0.7785" y="-3" relative="1" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIJch6Zz2yw0_G9rzIlB-1" value="本地服务器" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="140" y="230" width="55.22" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dIJch6Zz2yw0_G9rzIlB-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.658;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dIJch6Zz2yw0_G9rzIlB-2" target="dIJch6Zz2yw0_G9rzIlB-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175.4000000000001" y="161.89999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIJch6Zz2yw0_G9rzIlB-5" value="模型下载到本地" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dIJch6Zz2yw0_G9rzIlB-4">
+          <mxGeometry x="-0.0102" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIJch6Zz2yw0_G9rzIlB-2" value="大模型服务器huggingface" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/media_converters/Media_Converter_Modular.svg;" vertex="1" parent="1">
+          <mxGeometry x="140" y="30" width="70.8" height="54.6" as="geometry" />
+        </mxCell>
+        <mxCell id="dIJch6Zz2yw0_G9rzIlB-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dIJch6Zz2yw0_G9rzIlB-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195" y="265" as="sourcePoint" />
+            <mxPoint x="530" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIJch6Zz2yw0_G9rzIlB-20" value="加载资料" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dIJch6Zz2yw0_G9rzIlB-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="341.29999999999995" y="240.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIJch6Zz2yw0_G9rzIlB-13" value="行业知识库" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="320" y="110" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="dIJch6Zz2yw0_G9rzIlB-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dIJch6Zz2yw0_G9rzIlB-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="413.29999999999995" y="240.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIJch6Zz2yw0_G9rzIlB-26" value="加载资料" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dIJch6Zz2yw0_G9rzIlB-23">
+          <mxGeometry x="-0.0299" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIJch6Zz2yw0_G9rzIlB-14" value="行业论文库" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="392" y="110" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="dIJch6Zz2yw0_G9rzIlB-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dIJch6Zz2yw0_G9rzIlB-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="491.29999999999995" y="240.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIJch6Zz2yw0_G9rzIlB-27" value="加载资料" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dIJch6Zz2yw0_G9rzIlB-25">
+          <mxGeometry x="-0.0067" y="-2" relative="1" as="geometry">
+            <mxPoint x="-2" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIJch6Zz2yw0_G9rzIlB-15" value="搜索引擎" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="470" y="110" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="dIJch6Zz2yw0_G9rzIlB-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dIJch6Zz2yw0_G9rzIlB-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="401.29999999999995" y="273" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIJch6Zz2yw0_G9rzIlB-31" value="各类专业算法工具" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dIJch6Zz2yw0_G9rzIlB-30">
+          <mxGeometry x="-0.2082" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIJch6Zz2yw0_G9rzIlB-28" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="380" y="350" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="dIJch6Zz2yw0_G9rzIlB-32" value="大模型代理agent" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="580.0003448275863" y="264.99517241379317" as="geometry">
+            <mxPoint x="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIJch6Zz2yw0_G9rzIlB-33" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;agent自动调用工具、查询资料库、查询网络&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="590.0003448275863" y="359.99517241379317" as="geometry">
+            <mxPoint x="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIJch6Zz2yw0_G9rzIlB-34" value="智能响应用户的输入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="579.9982758620688" y="404.00275862068963" as="geometry">
+            <mxPoint x="5" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIJch6Zz2yw0_G9rzIlB-35" value="用户的输入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="579.9982758620688" y="300.00275862068963" as="geometry">
+            <mxPoint x="5" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIJch6Zz2yw0_G9rzIlB-36" value="语义分割" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="579.9982758620688" y="330.00275862068963" as="geometry">
+            <mxPoint x="5" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIJch6Zz2yw0_G9rzIlB-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="579.21" y="273" as="sourcePoint" />
+            <mxPoint x="580" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
